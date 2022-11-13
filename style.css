@@ -385,14 +385,20 @@ video {
 
 .item-1 {
     animation-name: anim-1;
+    user-select:none;
+    pointer-events: none;
 }
 
 .item-2 {
     animation-name: anim-2;
+    user-select:none;
+    pointer-events: none;
 }
 
 .item-3 {
     animation-name: anim-3;
+    user-select:none;
+    pointer-events: none;
 }
 
 @keyframes anim-1 {
