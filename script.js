@@ -12,3 +12,4 @@ function scrollFunction() {
     icon.src='./assets/menu.svg';
   }
 }
+
