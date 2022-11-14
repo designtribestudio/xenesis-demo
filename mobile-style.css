@@ -65,7 +65,7 @@
     }
 
     .about-text p {
-        width: 90vw;
+        width: 230px;
         font-size: 12px;
         line-height: 18px;
     }
@@ -145,7 +145,7 @@
         width: 207px;
         border-top: 1px solid black;
         top: 22px;
-        left: 130px;
+        left: 140px;
     }
 
     .grid-container {
