@@ -2,7 +2,9 @@
     font-family: 'SF Pro Display';
     src: url('./assets/fonts/sf-pro-display-font/SF-Pro-Display-Regular.woff');
 }
-
+.body{
+    overflow: hidden;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -75,7 +77,7 @@ video {
 
     position: fixed;
     object-fit: cover;
-    min-width: 100vw;
+    width: 100vw;
     height: 900px;
     /* min-height: 100vh; */
     z-index: -1;
@@ -97,13 +99,15 @@ video {
     top: 300px;
     left: -280px;
 }
-
+.about-wrapper{
+    padding: 900px 0 0 0;
+}
 .about {
     position: relative;
     background: #F8F8F8;
     padding: 150px 0;
     position: relative;
-    top: 900px;
+    /* top: 900px; */
 }
 
 .about-text {
@@ -145,7 +149,7 @@ video {
     background-color: #ffffff;
     padding: 150px 0;
     position: relative;
-    top: 900px;
+    /* top: 900px; */
 }
 
 .info-container {
@@ -213,7 +217,7 @@ video {
     background: #F3F5F6;
     padding: 100px 0;
     position: relative;
-    top: 900px;
+    /* top: 900px; */
 }
 
 .institute-container {
@@ -272,7 +276,7 @@ video {
     background: url(./assets/contact-bg.png);
     background-size: cover;
     position: relative;
-    top: 900px;
+    /* top: 900px; */
 }
 
 .contact-container {
@@ -327,7 +331,7 @@ video {
     height: 178px;
     background: #262626;
     position: relative;
-    top: 900px;
+    /* top: 900px; */
 }
 
 .footer-container {
@@ -425,7 +429,7 @@ video {
 
     33.33%,
     100% {
-        left: 110%;
+        left: 50%;
         opacity: 0;
     }
 }
@@ -446,7 +450,7 @@ video {
 
     66.66%,
     100% {
-        left: 110%;
+        left: 50%;
         opacity: 0;
     }
 }
@@ -466,7 +470,7 @@ video {
     }
 
     100% {
-        left: 110%;
+        left: 50%;
         opacity: 0;
     }
 }

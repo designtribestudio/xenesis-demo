@@ -43,11 +43,15 @@
     }
 
     nav {
-        width: fit-content;
+        width: 20px;
+    }
+
+    .about-wrapper{
+        padding: 220px 0 0 0;
     }
 
     .about {
-        top: 220px;
+        /* top: 220px; */
         padding: 40px 0;
     }
 
@@ -75,7 +79,7 @@
 
     .info {
         padding: 40px 0;
-        top: 220px;
+        /* top: 220px; */
     }
 
     .info-container {
@@ -124,7 +128,7 @@
     }
 
     .institute {
-        top: 220px;
+        /* top: 220px; */
         padding: 40px 0;
     }
 
@@ -179,7 +183,7 @@
     }
 
     .contact {
-        top: 220px;
+        /* top: 220px; */
         height: 128px;
     }
 
@@ -221,7 +225,7 @@
         left: 130px;
     }
     .footer{
-        top: 220px;
+        /* top: 220px; */
         height: 84px;
     }
     .footer-container{
