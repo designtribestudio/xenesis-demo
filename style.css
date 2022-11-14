@@ -16,6 +16,7 @@ body {
 
 .hero {
     width: 100vw;
+    height: fit-content;
     position: relative;
     overflow: hidden;
 }
@@ -58,6 +59,13 @@ nav {
     color: #ffffff;
 }
 
+.light button{
+    display: none;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
 .dark a {
     text-decoration: none;
     color: #000000;
@@ -461,4 +469,8 @@ video {
         left: 110%;
         opacity: 0;
     }
+}
+
+.topnav-menu{
+    display: none;
 }
